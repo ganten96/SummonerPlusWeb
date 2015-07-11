@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummonerPlus", "SummonerPlus\SummonerPlus.csproj", "{3A7D8103-7343-45CC-97AC-C2492D19BCC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{7075FBFB-E41E-4C88-8E4D-DE49131924B5}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{79BBA582-129C-4C85-89BA-31975E18A12B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\SummonerPlus-WAWS-dev.json = PublishScripts\Configurations\SummonerPlus-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A7D8103-7343-45CC-97AC-C2492D19BCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7D8103-7343-45CC-97AC-C2492D19BCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7D8103-7343-45CC-97AC-C2492D19BCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7D8103-7343-45CC-97AC-C2492D19BCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79BBA582-129C-4C85-89BA-31975E18A12B} = {7075FBFB-E41E-4C88-8E4D-DE49131924B5}
+	EndGlobalSection
+EndGlobal
